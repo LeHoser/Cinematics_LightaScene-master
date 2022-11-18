@@ -7,7 +7,7 @@ public class TriggerScript : MonoBehaviour
 {
     public PlayableDirector timeline;
 
-    public bool OneTimeTrigger = false;
+    public bool OneTimeTrigger = true;
 
     private void OnTriggerEnter(Collider other)
     {
